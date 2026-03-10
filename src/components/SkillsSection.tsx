@@ -16,7 +16,7 @@ const skillCategories = [
   {
     title: "Data Science & AI",
     icon: Brain,
-    skills: ["Pandas", "NumPy", "Matplotlib","Seaborn", "Scikit-learn", "Machine Learning", "Data Analysis"],
+    skills: ["Pandas", "NumPy", "Matplotlib","Seaborn", "Scikit-learn", "Machine Learning", "Data Analysis","Natural Language Processing"],
   },
   {
     title: "Tools",

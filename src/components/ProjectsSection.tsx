@@ -69,6 +69,21 @@ const projects = [
     github: "https://github.com/harithaharikumar100-gif/iris-classification-project",
   
   },
+  {
+  title: "AI Interview Answer Evaluator",
+  description: "An NLP-based system that evaluates interview answers using semantic similarity and provides instant feedback.",
+  tech: ["Python", "NLP", "Sentence Transformers", "PyTorch", "Streamlit"],
+  image: "/projects/interview.jpg",
+  github: "https://github.com/harithaharikumar100-gif/AI-Interview-Answer-Evaluator",
+  },
+
+  {
+  title: "AI Knowledge Chatbot",
+  description: "A domain-specific chatbot that answers AI, ML, and Python questions using semantic search.",
+  tech: ["Python", "NLP", "Sentence Transformers", "NLTK", "Streamlit"],
+  image: "/projects/ChatGPT.png",
+  github: "https://github.com/harithaharikumar100-gif/NLP-Chatbot",
+  },
 
   // Django Projects
   {
