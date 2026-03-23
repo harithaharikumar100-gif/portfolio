@@ -4,30 +4,52 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Virat Kohli ODI Career Analysis",
-    description: "Exploratory Data Analysis of Virat Kohli's ODI career statistics with rich visualizations and insights.",
-    tech: ["Python", "Pandas", "Matplotlib", "Seaborn"],
-    image: "/projects/virat.jpg",
-    github: "https://github.com/harithaharikumar100-gif/money-heist-eda",
-    
-  },
+  title: "Multi-Agent Debate System",
+  description: "An AI system where multiple agents collaborate and debate to generate refined and high-quality responses using LLMs.",
+  tech: ["Python", "LLM APIs", "NLP", "Prompt Engineering", "Streamlit"],
+  image: "/projects/Multiagent.png",
+  github: "https://github.com/harithaharikumar100-gif/multi-agent-debate-system"
+},
+
+{
+  title: "Voice AI Agent",
+  description: "A real-time voice-enabled AI application that processes speech input and generates intelligent responses using FastAPI and LLM integration.",
+  tech: ["Python", "FastAPI", "Webhooks", "NLP", "LLM APIs"],
+  image: "/projects/voice-ai.png",
+  github: "https://github.com/harithaharikumar100-gif/voice-ai-agent"
+},
   {
-    title: "FIFA Data Exploration",
-    description: "Deep dive into FIFA player data, uncovering patterns in player attributes, ratings, and performance metrics.",
-    tech: ["Python", "Pandas", "NumPy", "Plotly"],
-    image: "projects/fifa.jpg",
-    github: "https://github.com/harithaharikumar100-gif/fifa-data-exploration",
+  title: "AI Interview Answer Evaluator",
+  description: "An NLP-based system that evaluates interview answers using semantic similarity and provides instant feedback.",
+  tech: ["Python", "NLP", "Sentence Transformers", "PyTorch", "Streamlit"],
+  image: "/projects/interview.jpg",
+  github: "https://github.com/harithaharikumar100-gif/AI-Interview-Answer-Evaluator",
+  },
+
+  {
+  title: "AI Knowledge Chatbot",
+  description: "A domain-specific chatbot that answers AI, ML, and Python questions using semantic search.",
+  tech: ["Python", "NLP", "Sentence Transformers", "NLTK", "Streamlit"],
+  image: "/projects/ChatGPT.png",
+  github: "https://github.com/harithaharikumar100-gif/NLP-Chatbot",
+  },
+    {
+    title: "Live Income Dashboard",
+    description: "Interactive Streamlit app displaying income statistics with real-time charts and filters.",
+    tech: ["Python", "Streamlit", "Pandas","Numpy","Plotly"],
+    image: "/projects/income.jpg",
+    github: "https://github.com/harithaharikumar100-gif/liveIncome",
    
   },
-     {
-    title: "Money Heist Data Analysis",
-    description: "Analyzing viewer data, ratings, and character appearances across the popular series using data science tools.",
-    tech: ["Python", "Pandas", "Matplotlib"],
-    image: "/projects/money_heist.jpg",
-    github: "https://github.com/harithaharikumar100-gif/money-heist-eda", // Add GitHub link
+  {
+    title: "Iris Flower Classification",
+    description: "Streamlit web app to classify Iris flower species using a machine learning model.",
+    tech: ["Python", "Streamlit", "Scikit-learn"],
+    image: "/projects/iris.jpg",
+    github: "https://github.com/harithaharikumar100-gif/iris-classification-project",
   
   },
-  {
+    {
     title: "Diabetes Prediction ML Model",
     description: "Machine learning model to predict diabetes onset using classification algorithms and Flask deployment.",
     tech: ["Python", "Scikit-learn", "Flask"],
@@ -52,38 +74,34 @@ const projects = [
   
   },
 
-  // Streamlit Projects
   {
-    title: "Live Income Dashboard",
-    description: "Interactive Streamlit app displaying income statistics with real-time charts and filters.",
-    tech: ["Python", "Streamlit", "Pandas","Numpy","Plotly"],
-    image: "/projects/income.jpg",
-    github: "https://github.com/harithaharikumar100-gif/liveIncome",
+    title: "Virat Kohli ODI Career Analysis",
+    description: "Exploratory Data Analysis of Virat Kohli's ODI career statistics with rich visualizations and insights.",
+    tech: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+    image: "/projects/virat.jpg",
+    github: "https://github.com/harithaharikumar100-gif/money-heist-eda",
+    
+  },
+  {
+    title: "FIFA Data Exploration",
+    description: "Deep dive into FIFA player data, uncovering patterns in player attributes, ratings, and performance metrics.",
+    tech: ["Python", "Pandas", "NumPy", "Plotly"],
+    image: "projects/fifa.jpg",
+    github: "https://github.com/harithaharikumar100-gif/fifa-data-exploration",
    
   },
-  {
-    title: "Iris Flower Classification",
-    description: "Streamlit web app to classify Iris flower species using a machine learning model.",
-    tech: ["Python", "Streamlit", "Scikit-learn"],
-    image: "/projects/iris.jpg",
-    github: "https://github.com/harithaharikumar100-gif/iris-classification-project",
+     {
+    title: "Money Heist Data Analysis",
+    description: "Analyzing viewer data, ratings, and character appearances across the popular series using data science tools.",
+    tech: ["Python", "Pandas", "Matplotlib"],
+    image: "/projects/money_heist.jpg",
+    github: "https://github.com/harithaharikumar100-gif/money-heist-eda", // Add GitHub link
   
   },
-  {
-  title: "AI Interview Answer Evaluator",
-  description: "An NLP-based system that evaluates interview answers using semantic similarity and provides instant feedback.",
-  tech: ["Python", "NLP", "Sentence Transformers", "PyTorch", "Streamlit"],
-  image: "/projects/interview.jpg",
-  github: "https://github.com/harithaharikumar100-gif/AI-Interview-Answer-Evaluator",
-  },
 
-  {
-  title: "AI Knowledge Chatbot",
-  description: "A domain-specific chatbot that answers AI, ML, and Python questions using semantic search.",
-  tech: ["Python", "NLP", "Sentence Transformers", "NLTK", "Streamlit"],
-  image: "/projects/ChatGPT.png",
-  github: "https://github.com/harithaharikumar100-gif/NLP-Chatbot",
-  },
+
+  // Streamlit Projects
+
 
   // Django Projects
   {
