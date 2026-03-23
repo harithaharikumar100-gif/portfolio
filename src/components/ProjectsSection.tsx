@@ -7,7 +7,7 @@ const projects = [
   title: "Multi-Agent Debate System",
   description: "An AI system where multiple agents collaborate and debate to generate refined and high-quality responses using LLMs.",
   tech: ["Python", "LLM APIs", "NLP", "Prompt Engineering", "Streamlit"],
-  image: "/projects/Multiagent.png",
+  image: "/projects/multi-agent.png",
   github: "https://github.com/harithaharikumar100-gif/multi-agent-debate-system"
 },
 
