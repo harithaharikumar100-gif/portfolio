@@ -3,6 +3,20 @@ import { useRef } from "react";
 import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
+{
+  title: "NeuroRisk",
+  description: "A RAG-powered compliance gap analysis engine that evaluates organizational documents against frameworks like ISO 27001, NIST CSF, DPDP Act, RBI, Basel III, and SEBI CSCRF to surface compliance gaps and coverage insights.",
+  tech: ["Python", "RAG", "LLM APIs", "TF-IDF", "NLP", "Streamlit"],
+  image: "/projects/neurisk.webp",
+  github: "https://github.com/harithaharikumar100-gif/NeuroRisk"
+},
+{
+  title: "VendorIQ",
+  description: "A vendor risk intelligence platform that scores third-party vendors across financial, reputational, cyber, compliance, and key-person risk dimensions to support informed vendor decisions.",
+  tech: ["Python", "LLM APIs", "Data Pipelines", "Serper API", "Streamlit"],
+  image: "/projects/vendoriq.jpg",
+  github: "https://github.com/harithaharikumar100-gif/Vendor-intelligence-platform"
+},
   {
   title: "Multi-Agent Debate System",
   description: "An AI system where multiple agents collaborate and debate to generate refined and high-quality responses using LLMs.",
