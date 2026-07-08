@@ -72,7 +72,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-3"
         >
-           Data Science & AI Enthusiast | Python & Django Developer
+          Agentic AI Engineer | RAG & LLM Systems for GRC
         </motion.p>
 
         <motion.p
@@ -81,7 +81,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-muted-foreground/70 max-w-xl mx-auto mb-10 text-sm md:text-base"
         >
-          Building intelligent applications with Python, Data Science, and Artificial Intelligence.
+          Building intelligent, agentic AI systems that turn complex data into clear, actionable insight.
         </motion.p>
 
         <motion.div

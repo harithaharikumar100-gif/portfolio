@@ -6,22 +6,22 @@ const skillCategories = [
   {
     title: "Programming",
     icon: Code2,
-    skills: ["Python","HTML","CSS" ,"C", "PHP"],
+    skills: ["Python", "HTML", "CSS", "C", "PHP"],
   },
   {
-    title: "Backend Development",
-    icon: Server,
-    skills: ["Django", "Flask","mysql"],
-  },
-  {
-    title: "Data Science & AI",
+    title: "Agentic AI & LLMs",
     icon: Brain,
-    skills: ["Pandas", "NumPy", "Matplotlib","Seaborn", "Scikit-learn", "Machine Learning", "Artificial Intelligence", "Data Analysis", "Natural Language Processing"],
+    skills: ["RAG Pipelines", "LLM APIs (OpenRouter, Groq)", "Prompt Engineering", "ChromaDB", "Sentence Transformers", "TF-IDF Retrieval", "Multi-Agent Systems"],
+  },
+  {
+    title: "Backend & Data",
+    icon: Server,
+    skills: ["Django", "Flask", "MySQL", "SQLite", "Pandas", "NumPy", "Scikit-learn"],
   },
   {
     title: "Tools",
     icon: Wrench,
-    skills: ["Git", "GitHub", "Jupyter Notebook", "Streamlit","pycharm", "VS Code"],
+    skills: ["Git", "GitHub", "Streamlit", "Jupyter Notebook", "VS Code", "PyCharm"],
   },
 ];
 
