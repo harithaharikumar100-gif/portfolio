@@ -49,22 +49,26 @@ const AboutSection = () => {
             className="space-y-6"
           >
             <p className="text-foreground/90 leading-relaxed">
-             I am a BCA graduate and a passionate Python & Django developer with a strong focus on Data Science, Machine Learning, and Artificial Intelligence. I specialize in building data-driven applications and intelligent systems that solve real-world problems.
-
-
+              I'm an Agentic AI Engineer building intelligent systems for governance, risk, and compliance. 
+              My work centers on Retrieval-Augmented Generation (RAG) pipelines, multi-agent architectures, 
+              and LLM-powered analysis tools that turn complex regulatory and risk data into clear, actionable insights.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-             My experience spans from exploratory data analysis and predictive modeling to developing AI-powered web applications using Django and Python. I enjoy transforming complex data into actionable insights and creating scalable backend solutions for machine learning and AI projects.
+              I've built and shipped production AI systems including a compliance gap-analysis engine 
+              that evaluates organizations against frameworks like ISO 27001, NIST CSF, and DPDP Act, 
+              and a vendor risk intelligence platform that scores third-party risk across financial, 
+              cyber, and reputational dimensions.
 
-              Driven by curiosity and innovation, I aim to build smart, impactful applications that combine AI, analytics, and web development.
+              I care about building AI that's not just powerful, but trustworthy — grounded, explainable, 
+              and genuinely useful for real-world decision-making.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
               {[
-                { icon: Code2, label: "Python Dev" },
-                { icon: Server, label: "Django" },
-                { icon: Brain, label: "AI & ML" },
-                { icon: Database, label: "Data Science" },
+                { icon: Brain, label: "Agentic AI" },
+                { icon: Database, label: "RAG Systems" },
+                { icon: Code2, label: "LLM Engineering" },
+                { icon: Server, label: "Python & APIs" },
               ].map((item) => (
                 <div key={item.label} className="glass-card p-4 text-center">
                   <item.icon className="w-6 h-6 text-primary mx-auto mb-2" />
